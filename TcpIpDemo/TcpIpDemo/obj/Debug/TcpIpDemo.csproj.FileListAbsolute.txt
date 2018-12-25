@@ -1,0 +1,12 @@
+E:\text\Tutorials\TcpIpDemo\TcpIpDemo\obj\Debug\TcpIpDemo.Form1.resources
+E:\text\Tutorials\TcpIpDemo\TcpIpDemo\obj\Debug\TcpIpDemo.Properties.Resources.resources
+E:\text\Tutorials\TcpIpDemo\TcpIpDemo\obj\Debug\TcpIpDemo.csproj.GenerateResource.cache
+E:\text\Tutorials\TcpIpDemo\TcpIpDemo\bin\Debug\TcpIpDemo.exe.config
+E:\text\Tutorials\TcpIpDemo\TcpIpDemo\bin\Debug\Microsoft.DiaSymReader.Native.x86.dll
+E:\text\Tutorials\TcpIpDemo\TcpIpDemo\bin\Debug\Microsoft.DiaSymReader.Native.amd64.dll
+E:\text\Tutorials\TcpIpDemo\TcpIpDemo\bin\Debug\TcpIpDemo.exe
+E:\text\Tutorials\TcpIpDemo\TcpIpDemo\bin\Debug\TcpIpDemo.pdb
+E:\text\Tutorials\TcpIpDemo\TcpIpDemo\bin\Debug\SimpleTCP.dll
+E:\text\Tutorials\TcpIpDemo\TcpIpDemo\obj\Debug\TcpIpDemo.csprojResolveAssemblyReference.cache
+E:\text\Tutorials\TcpIpDemo\TcpIpDemo\obj\Debug\TcpIpDemo.exe
+E:\text\Tutorials\TcpIpDemo\TcpIpDemo\obj\Debug\TcpIpDemo.pdb

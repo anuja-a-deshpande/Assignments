@@ -1,0 +1,9 @@
+E:\text\Tutorials\TcpIpDemo\Client\obj\Debug\Client.Form1.resources
+E:\text\Tutorials\TcpIpDemo\Client\obj\Debug\Client.Properties.Resources.resources
+E:\text\Tutorials\TcpIpDemo\Client\obj\Debug\Client.csproj.GenerateResource.cache
+E:\text\Tutorials\TcpIpDemo\Client\bin\Debug\Client.exe.config
+E:\text\Tutorials\TcpIpDemo\Client\bin\Debug\Client.exe
+E:\text\Tutorials\TcpIpDemo\Client\bin\Debug\Client.pdb
+E:\text\Tutorials\TcpIpDemo\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+E:\text\Tutorials\TcpIpDemo\Client\obj\Debug\Client.exe
+E:\text\Tutorials\TcpIpDemo\Client\obj\Debug\Client.pdb
