@@ -45,6 +45,7 @@
             this.StratBtn.TabIndex = 1;
             this.StratBtn.Text = "Start";
             this.StratBtn.UseVisualStyleBackColor = true;
+            this.StratBtn.Click += new System.EventHandler(this.StratBtn_Click);
             // 
             // Host
             // 
@@ -61,7 +62,7 @@
             this.txtHost.Name = "txtHost";
             this.txtHost.Size = new System.Drawing.Size(98, 20);
             this.txtHost.TabIndex = 3;
-            this.txtHost.Text = "127.0.01";
+            this.txtHost.Text = "127.0.0.1";
             // 
             // txtPost
             // 
@@ -76,9 +77,9 @@
             this.Post.AutoSize = true;
             this.Post.Location = new System.Drawing.Point(151, 9);
             this.Post.Name = "Post";
-            this.Post.Size = new System.Drawing.Size(28, 13);
+            this.Post.Size = new System.Drawing.Size(26, 13);
             this.Post.TabIndex = 4;
-            this.Post.Text = "Post";
+            this.Post.Text = "Port";
             // 
             // StopBtn
             // 
@@ -88,6 +89,7 @@
             this.StopBtn.TabIndex = 6;
             this.StopBtn.Text = "Stop";
             this.StopBtn.UseVisualStyleBackColor = true;
+            this.StopBtn.Click += new System.EventHandler(this.StopBtn_Click);
             // 
             // txtStatus
             // 

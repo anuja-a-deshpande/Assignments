@@ -7,3 +7,4 @@ E:\text\Tutorials\TcpIpDemo\Client\bin\Debug\Client.pdb
 E:\text\Tutorials\TcpIpDemo\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
 E:\text\Tutorials\TcpIpDemo\Client\obj\Debug\Client.exe
 E:\text\Tutorials\TcpIpDemo\Client\obj\Debug\Client.pdb
+E:\text\Tutorials\TcpIpDemo\Client\bin\Debug\SimpleTCP.dll

@@ -35,7 +35,7 @@
             this.ConnectBtn = new System.Windows.Forms.Button();
             this.textMessage = new System.Windows.Forms.TextBox();
             this.SendBtn = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtStatus = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtPost
@@ -51,9 +51,9 @@
             this.Post.AutoSize = true;
             this.Post.Location = new System.Drawing.Point(151, 9);
             this.Post.Name = "Post";
-            this.Post.Size = new System.Drawing.Size(28, 13);
+            this.Post.Size = new System.Drawing.Size(26, 13);
             this.Post.TabIndex = 9;
-            this.Post.Text = "Post";
+            this.Post.Text = "Port";
             // 
             // txtHost
             // 
@@ -61,7 +61,7 @@
             this.txtHost.Name = "txtHost";
             this.txtHost.Size = new System.Drawing.Size(98, 20);
             this.txtHost.TabIndex = 8;
-            this.txtHost.Text = "127.0.01";
+            this.txtHost.Text = "127.0.0.1";
             // 
             // Host
             // 
@@ -80,6 +80,7 @@
             this.ConnectBtn.TabIndex = 6;
             this.ConnectBtn.Text = "Connect";
             this.ConnectBtn.UseVisualStyleBackColor = true;
+            this.ConnectBtn.Click += new System.EventHandler(this.ConnectBtn_Click);
             // 
             // textMessage
             // 
@@ -97,21 +98,22 @@
             this.SendBtn.TabIndex = 11;
             this.SendBtn.Text = "Send";
             this.SendBtn.UseVisualStyleBackColor = true;
+            this.SendBtn.Click += new System.EventHandler(this.SendBtn_Click);
             // 
-            // textBox2
+            // txtStatus
             // 
-            this.textBox2.Location = new System.Drawing.Point(47, 152);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(352, 143);
-            this.textBox2.TabIndex = 13;
+            this.txtStatus.Location = new System.Drawing.Point(47, 152);
+            this.txtStatus.Multiline = true;
+            this.txtStatus.Name = "txtStatus";
+            this.txtStatus.Size = new System.Drawing.Size(352, 143);
+            this.txtStatus.TabIndex = 13;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(411, 311);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtStatus);
             this.Controls.Add(this.textMessage);
             this.Controls.Add(this.SendBtn);
             this.Controls.Add(this.txtPost);
@@ -120,7 +122,9 @@
             this.Controls.Add(this.Host);
             this.Controls.Add(this.ConnectBtn);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Client";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -135,7 +139,7 @@
         private System.Windows.Forms.Button ConnectBtn;
         private System.Windows.Forms.TextBox textMessage;
         private System.Windows.Forms.Button SendBtn;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtStatus;
     }
 }
 
